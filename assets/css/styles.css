@@ -1,0 +1,95 @@
+/* CSS TAGS */
+
+body {
+  font-family: Arial;
+  font-size: 140%;
+  color: white;
+  background-color:black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color:chartreuse;
+}
+
+button {
+  display: inline-block;
+  margin: 20px;
+  font-size: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: chartreuse;
+  color: black;
+  transition: color 0.1s;
+}
+
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  color: black;
+  background-color: chartreuse;
+}
+
+.wrapper {
+  margin-top: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: chartreuse;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
